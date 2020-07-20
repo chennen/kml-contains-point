@@ -1,0 +1,27 @@
+{
+  "name": "kml-contains-point",
+  "version": "1.0.0",
+  "description": "Prompt for a kml document and a coordinate, return true if coordinate is included in the region",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "jest"
+  },
+  "author": "chris hennen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "@types/jest": "^26.0.5",
+    "@types/xml2js": "^0.4.5",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.3",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "xml2js": "^0.4.23"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
